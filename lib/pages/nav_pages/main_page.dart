@@ -3,7 +3,7 @@ import 'package:travel_app/pages/nav_pages/bar_item_page.dart';
 import 'package:travel_app/pages/nav_pages/my_page.dart';
 import 'package:travel_app/pages/nav_pages/search_page.dart';
 
-import 'home_page.dart';
+import '../home_page.dart';
 
 class MainPage extends StatefulWidget {
   const MainPage({super.key});

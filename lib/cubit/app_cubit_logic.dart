@@ -5,7 +5,6 @@ import 'package:travel_app/cubit/app_cubits.dart';
 import 'package:travel_app/pages/welcome_page.dart';
 
 import '../pages/detail_page.dart';
-import '../pages/home_page.dart';
 import '../pages/nav_pages/main_page.dart';
 
 class AppCubitLogic extends StatefulWidget {

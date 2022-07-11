@@ -126,7 +126,7 @@ class _DetailPageState extends State<DetailPage> {
                               )
                             ],
                           ),
-                          const SizedBox(height: 20),
+                          const SizedBox(height: 10),
                           AppLargeText(
                               text: "People ",
                               color: Colors.black.withOpacity(0.8),
@@ -172,9 +172,15 @@ class _DetailPageState extends State<DetailPage> {
                             color: Colors.black.withOpacity(0.8),
                           ),
                           const SizedBox(height: 10),
-                          AppText(
-                            text: detail.place.description,
-                            color: AppColors.mainTextColor,
+                          Container(
+                            height: 63,
+                            child: SingleChildScrollView(
+                              child: AppText(
+                                text: detail.place.description,
+                                color: AppColors.mainTextColor,
+                                size: 16,
+                              ),
+                            ),
                           )
                         ],
                       ),

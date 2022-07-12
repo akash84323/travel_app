@@ -11,6 +11,8 @@ import 'package:travel_app/misc/colors.dart';
 import 'package:travel_app/widgets/app_large_text.dart';
 import 'package:travel_app/widgets/app_text.dart';
 
+import '../widgets/drawer_widget.dart';
+
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
 
@@ -29,7 +31,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
   Widget build(BuildContext context) {
     TabController tabcontroller = TabController(length: 3, vsync: this);
     return Scaffold(
-        drawer: const Drawer(),
+        drawer: const DrawerWidget(),
         body: BlocBuilder<AppCubits, CubitStates>(
           builder: (context, state) {
             if (state is LoadedState) {

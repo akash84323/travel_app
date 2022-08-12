@@ -2,7 +2,7 @@
 
 A new Flutter project which shows the travel destinations and locations about them.
 
-## Ge![Screenshot_1660273788](https://user-images.githubusercontent.com/106280144/184277998-df994c30-43f5-4db0-a16f-6b3593d8b64e.png)
+![Screenshot_1660273788](https://user-images.githubusercontent.com/106280144/184277998-df994c30-43f5-4db0-a16f-6b3593d8b64e.png)
 
 
 ![Screenshot_1660273790](https://user-images.githubusercontent.com/106280144/184278003-153873b2-e569-4a7b-a735-4e67a720a0b6.png)
